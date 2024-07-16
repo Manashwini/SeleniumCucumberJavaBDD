@@ -1,0 +1,370 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-15T19:24:57.671Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.setup2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1768223300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "check-login-functionality;",
+        "after": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.teardown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 528609300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1006000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 991300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1010500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_enters_valid_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 984100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2005200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_is_navigated_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-15T19:25:00.002Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.setup2()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "check-login-functionality;",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.teardown2()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.close()\" because \"this.driver\" is null\r\n\tat StepsForHooks.HooksDemoSteps.teardown(HooksDemoSteps.java:42)\r\n",
+              "duration": 1999100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1003100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_enters_valid_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_is_navigated_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check login functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HooksDemo/HooksDemo.feature",
+    "tags": []
+  }
+]
